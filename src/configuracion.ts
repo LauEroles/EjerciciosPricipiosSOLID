@@ -46,7 +46,12 @@ class ConfiguracionHoraria implements RecursoPersistente {
     // RecursoPersistente tenga ambos metodos en configuracion horaria tendriamos
     // que forzar a usar save y se detendria el programa porque nos tiraria un trhow new error
 
-    
+    //explico que cuando se instancia un objeto de tipo configuracionHoraria con la antigua solucion se detendria
+    // el programa y el polimorfismo no se aplicaria
+    // de forma segura 
+
+
+
 interface RecursoPersistente  {
     save(): void;
 }
